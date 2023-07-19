@@ -38,3 +38,16 @@ function stringy(size) {
   }
 
 
+  const stringy = size => Array.from(Array(size), (v, i) => +!(i % 2)).join('');
+
+
+  const stringy = size =>
+  ``.padStart(size, `10`);
+
+
+  function stringy(size) {
+    return ''.padStart(size,'10');
+    }
+
+
+
