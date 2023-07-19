@@ -20,3 +20,6 @@ function stringy(size) {
   }
 
 
+  const stringy = x => ''.padStart(x,'10');
+
+
