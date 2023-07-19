@@ -51,3 +51,8 @@ function stringy(size) {
 
 
 
+    function stringy(size) {
+        return '10'.repeat(Math.floor(size / 2)) + (size % 2 ? '1' : '');
+      }
+
+
