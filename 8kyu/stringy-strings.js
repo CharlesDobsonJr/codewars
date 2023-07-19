@@ -23,3 +23,18 @@ function stringy(size) {
   const stringy = x => ''.padStart(x,'10');
 
 
+  const stringy = size => "10".repeat(size).slice(0,size);
+
+
+  function stringy(size) {
+    string = "1";
+    for (var i = 0; i < size-1; i++) {
+      if(i % 2 == 0)
+        string += "0";
+      else
+        string += "1";
+    }
+    return string;
+  }
+
+
