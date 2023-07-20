@@ -24,3 +24,31 @@ function bonusTime(salary, bonus) {
   }
 
 
+  const bonusTime = (salary, bonus) => `£${salary * (bonus ? 10 : 1)}`;
+
+
+  function bonusTime(salary, bonus) {
+    return '£' + salary * (bonus ? 10 : 1);
+  }
+
+
+  const bonusTime = (salary, bonus) => bonus ? `£${salary * 10}` : `£${salary}`;
+
+
+  function bonusTime(salary, bonus) {
+    return '£'+(bonus ? salary*10:salary)
+   }
+
+
+   function bonusTime(salary, bonus) {
+    return bonus ? `\u00A3${salary * 10}` : `\u00A3${salary}`
+  }
+
+  function bonusTime(salary, bonus) {
+    return bonus ? `£${salary * 10}` : `£${salary}`;
+  }
+
+
+  function bonusTime(salary, bonus) {
+    return bonus?'£'+(salary*10):'£'+salary
+ }
