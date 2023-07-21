@@ -44,4 +44,6 @@ function reverseWords(str){
   }
 
 
+  reverseWords = s => s.split(' ').reverse().join(' ')
+
   
