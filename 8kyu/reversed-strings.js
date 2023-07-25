@@ -24,4 +24,4 @@ function solution(str){
   }
 
   
-  
+  let solution = str => [...str].reverse().join('');
