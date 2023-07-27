@@ -23,3 +23,22 @@ function makeNegative(num) {
   function makeNegative(num) {
     return num > 0 ? -num : num;
   }
+
+
+  function makeNegative(num) {
+    if ( num > 0 ) {
+          return -num;
+      }
+      else {
+          return num;
+      }
+  }
+
+
+  function makeNegative(num) {
+    return num <= 0 ? num : num*-1;
+  }
+
+  function makeNegative(num) {
+    return Math.abs(num) * -1;
+  }
