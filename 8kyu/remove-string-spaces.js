@@ -15,3 +15,13 @@ function noSpace(x){
   }
 
   function noSpace(x){return x.split(' ').join('')}
+
+
+  const noSpace = x => x.replace(/ /g, "");
+
+
+  function noSpace(x) {
+    return x.replaceAll(' ', '');
+  }
+
+  const noSpace=x=>x.split(" ").join("");
