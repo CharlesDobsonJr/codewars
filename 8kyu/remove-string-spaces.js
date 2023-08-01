@@ -25,3 +25,19 @@ function noSpace(x){
   }
 
   const noSpace=x=>x.split(" ").join("");
+
+
+  function noSpace(x){
+    if (typeof x === 'string') return x.replace(/ +/g, '');
+    console.log(arguments.callee.name + ': Argument must be string!');
+  }
+
+
+  function noSpace(x){
+    return x.replace(/ /g,'')
+ }
+
+
+ function noSpace(x){
+    return x.replace(/\s+/g,'')
+  }
