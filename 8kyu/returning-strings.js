@@ -11,3 +11,16 @@ function greet(name){
 
 
   const greet = name => `Hello, ${name} how are you doing today?`;
+
+
+  function greet(name){
+    return "Hello, " + name + " how are you doing today?"
+  }
+
+
+  function greet(name){
+    return "Hello, <name> how are you doing today?".replace("<name>", name);
+  }
+
+
+  const greet=n=>`Hello, ${n} how are you doing today?`;
