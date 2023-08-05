@@ -30,3 +30,17 @@ function abbrevName(name){
   }
 
 
+  const abbrevName = name => name.match(/\b\w/g).join('.').toUpperCase()
+
+
+  function abbrevName(name){
+
+    return name[0].toUpperCase() + "." + name[name.indexOf(" ")+1].toUpperCase();
+
+}
+
+
+function abbrevName(name){
+    name = name.toUpperCase().split(' ');
+    return name[0][0] + '.' + name[1][0];
+}
