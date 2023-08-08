@@ -21,3 +21,18 @@ function smash (words) {
 };
 
 
+let smash = words => words.join(" ");
+
+
+function smash (words) {
+   
+    return words.join(" ");
+    
+  };
+
+
+  // Smash Words
+function smash (words) {
+    "use strict";
+    return words.join(" ").trim();    
+};
