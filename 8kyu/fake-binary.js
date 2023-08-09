@@ -13,3 +13,17 @@ function fakeBin(x) {
 function fakeBin(x) {
     return x.replace(/\d/g, d => d < 5 ? 0 : 1);
   }
+
+
+  function fakeBin(str){
+    var newStr = "";
+    for(var i=0;i<str.length;i++){
+      if(Number(str[i])>=5){
+        newStr += "1"
+      }
+      else{
+        newStr += "0";
+      }
+    }
+    return newStr;
+  }
