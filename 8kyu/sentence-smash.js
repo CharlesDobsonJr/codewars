@@ -36,3 +36,14 @@ function smash (words) {
     "use strict";
     return words.join(" ").trim();    
 };
+
+
+const smash = (words) => words.join(' ');
+
+
+const smash = w => w.join(' ');
+
+
+function smash (words) {
+    return words.join(' ').trim();
+ };
