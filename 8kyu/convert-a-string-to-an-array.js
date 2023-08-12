@@ -13,3 +13,27 @@ function stringToArray(string){
   }
 
   const stringToArray = string => string.split(' ');
+
+  stringToArray=(s)=>s.split(' ')
+
+
+  const stringToArray = (str) => str.split(' ');
+
+
+  function stringToArray(string){
+
+	// code code code
+  return  string.split(' ')
+}
+
+
+function stringToArray(s){
+    return s.split(' ');
+  }
+
+
+  let stringToArray = string => string.split(' ');
+
+
+
+  stringToArray=string=>string.split(' ');
