@@ -29,4 +29,17 @@ var countSheep = function (num){
   Array.from({ length }, (_, i) => ++i + ' sheep...').join('')
 
 
+  var countSheep = function (num){
+    var ret = "";
+    for (var i = 1; i <= num; i++) {
+      ret += i + " sheep..."
+    }
+    
+    return ret;
+  }
+
+
+  const countSheep = num => [...Array(num)].map((_, i) => `${i + 1} sheep...`).join('');
+
+
   
