@@ -12,3 +12,21 @@ var countSheep = function (num){
   }
 
 
+  const countSheep = num => {
+    let val = '';
+    for (let i = 1; i <= num; i++) {
+      val += `${i} sheep...`;
+    }
+    return val;
+  }
+
+
+  countSheep=n=>[...Array(n).keys()].map(x=>`${x+1} sheep...`).join``
+
+
+
+  const countSheep = length =>
+  Array.from({ length }, (_, i) => ++i + ' sheep...').join('')
+
+
+  
