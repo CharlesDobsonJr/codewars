@@ -28,3 +28,10 @@ function makeUpperCase(str) {
     // Code here
     return str.toUpperCase()
   }
+
+
+  const points = g => g.reduce((a, [x, _, y]) => a + (x > y ? 3 : x == y), 0)
+
+
+
+  const points = games => games.reduce((sum, [x, , y]) => sum + (x > y ? 3 : x == y), 0)
