@@ -53,3 +53,4 @@ function greet (name, owner) {
   }
 
 
+  const greet = (name, owner) => name === owner ? 'Hello boss' : 'Hello guest'
