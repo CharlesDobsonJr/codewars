@@ -44,3 +44,12 @@ const greet = (name, owner) => `Hello ${name === owner ? 'boss' : 'guest'}`;
 
 
 
+function greet (name, owner) {
+    if (name === owner) {
+      return 'Hello boss'
+      }
+      else
+      return 'Hello guest' 
+  }
+
+
