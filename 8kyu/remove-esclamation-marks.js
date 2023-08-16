@@ -23,3 +23,6 @@ function removeExclamationMarks(s) {
 
 
 
+  function removeExclamationMarks(s) {
+    return s.replaceAll('!', '');
+  }
