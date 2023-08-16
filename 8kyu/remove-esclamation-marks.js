@@ -7,3 +7,19 @@ function removeExclamationMarks(s) {
   }
 
 
+  function removeExclamationMarks(s) {
+    return s.replace(/!/g, '');
+  }
+
+
+
+  function removeExclamationMarks(s) {
+    return s.split('!').join('');
+  }
+
+
+
+  const removeExclamationMarks = s => s.replace(/!/g,"") ;
+
+
+
