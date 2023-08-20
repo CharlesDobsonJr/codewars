@@ -27,3 +27,20 @@ String.prototype.isUpperCase = function() {
 
 
 
+//define the string prototype here
+String.prototype.isUpperCase = function() {
+    return this.toUpperCase() == this;
+  }
+
+
+
+  String.prototype.isUpperCase = function() {
+    return this.valueOf().toUpperCase() === this.valueOf();
+};
+
+
+//define the string prototype here
+String.prototype.isUpperCase = function() {
+  
+    return this == this.toUpperCase() ? true : false;
+  }
