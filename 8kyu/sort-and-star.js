@@ -13,3 +13,31 @@ function twoSort(s) {
 
 
 
+  twoSort = s => s.sort()[0].split('').join('***')
+
+
+
+  function twoSort(s) {
+    s.sort();
+    return s[0].split('').join('***');
+  }
+
+
+  const twoSort = s => [...s.sort()[0]].join('***');
+
+
+
+  const twoSort = s => s.sort()[0].split("").join("***");
+
+
+
+  function twoSort(s) {
+    const sorted = s.sort();
+    
+    return sorted[0].split('').join('***');
+  }
+
+
+  function twoSort(s) {
+    return [...s.sort()[0]].join('***')
+  }
