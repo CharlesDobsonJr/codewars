@@ -34,4 +34,28 @@ const array = (arr) => {
   arr.split(`,`).slice(1, -1).join(` `) || null;
 
 
-  
+  function array(arr){
+    var data = arr.split(',');
+    data.pop()
+    data.shift();
+    return data.length ? data.join(' ') : null;
+    }
+
+    
+
+    function array(arr){
+        arr = arr.split(',');
+        
+        if (arr.length < 3) {
+          return null;
+        }
+      
+        return arr.slice(1, arr.length - 1).join(' ');
+      }
+
+
+      const array = arr => arr.split(',').slice(1,-1).join(' ') || null
+
+
+
+      array=arr=>arr.split(',').slice(1,-1).join(' ')||null
