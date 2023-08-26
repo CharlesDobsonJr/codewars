@@ -21,3 +21,12 @@ function array(arr){
     return arr.split(",").slice(1,-1).join(" ") || null;
   }
 
+// it is not array
+const array = (arr) => {
+    arr = arr.split(',')
+    arr.pop()
+    arr.shift()
+    return arr.join(' ') === '' ? null : arr.join(' ')
+  }
+
+
