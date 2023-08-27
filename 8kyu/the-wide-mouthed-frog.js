@@ -15,3 +15,29 @@ function mouthSize(animal) {
 
 
 
+  function mouthSize(animal) {
+    return animal.toLowerCase() === 'alligator' ? 'small' : 'wide';
+  }
+
+
+  const mouthSize = animal => animal.toLowerCase() === 'alligator' ? 'small' : 'wide';
+
+
+
+  const mouthSize = (animal) => animal.toLowerCase() == "alligator" ? "small" : "wide";
+
+
+
+  function mouthSize(animal) {
+    if(animal=== 'alligator' || animal === 'ALLIGATOR'){
+    return 'small'}
+    else{return 'wide'}
+  }
+
+
+  function mouthSize(animal) {
+    return animal == "alligator" || animal == "ALLIGATOR" ? "small" : "wide"
+  }
+
+
+  mouthSize = animal => /alligator/i.test(animal)? 'small': 'wide';
