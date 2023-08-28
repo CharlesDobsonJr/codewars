@@ -24,3 +24,26 @@ function remove(s) {
   }
 
 
+  function remove(s){
+    return s[s.length - 1] == '!' ? s.slice(0, -1) : s;
+  }
+
+
+  function remove(s){
+    return s.charAt(s.length-1)=="!"?s.substr(0,s.length-1):s;
+  }
+
+
+  function remove(s){
+    return s.charAt(s.length - 1) === '!' ? s.slice(0, -1) : s; 
+  }
+
+
+  function remove(s){
+    return s.replace(/\!$/,"")
+  }
+
+
+  function remove(string){
+    return string.replace(/!$/, '');
+    }
