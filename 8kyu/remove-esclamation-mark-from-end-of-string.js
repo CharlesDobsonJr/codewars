@@ -19,3 +19,8 @@ function remove(s) {
   }
 
 
+  function remove(s){
+    return s.replace( /!$/, '') 
+  }
+
+
