@@ -12,3 +12,62 @@ function apple(x){
   }
 
 
+  function apple(x){
+  
+    if (Math.pow(x,2) > 1000) {
+      return "It's hotter than the sun!!";
+    } else {
+      return "Help yourself to a honeycomb Yorkie for the glovebox.";
+    
+    }
+  
+  }
+
+
+  function apple(x) {
+    return x ** 2 > 1000 ? 'It\'s hotter than the sun!!' : 'Help yourself to a honeycomb Yorkie for the glovebox.';
+  }
+
+
+  function apple(x) {
+    return x**2 > 1000 ? "It's hotter than the sun!!" : 'Help yourself to a honeycomb Yorkie for the glovebox.';
+  }
+
+
+  function apple(x){
+    return Math.pow(x, 2) > 1000 ? "It's hotter than the sun!!" : "Help yourself to a honeycomb Yorkie for the glovebox."
+}
+
+
+const apple = x => (x * x > 1000)? "It's hotter than the sun!!" : "Help yourself to a honeycomb Yorkie for the glovebox.";
+
+
+function apple(x){
+    if (x**2 > 1000) {
+      return "It's hotter than the sun!!";
+    }
+    return "Help yourself to a honeycomb Yorkie for the glovebox.";
+  }
+
+
+  function apple(x){
+    return Number(x) ** 2 > 1000
+      ? "It's hotter than the sun!!"
+      : "Help yourself to a honeycomb Yorkie for the glovebox.";
+  }
+
+
+  const apple = x =>
+  x ** 2 > 1000
+    ? "It's hotter than the sun!!"
+    : 'Help yourself to a honeycomb Yorkie for the glovebox.'
+
+
+    function apple(x){
+        return x*x>1000?'It\'s hotter than the sun!!':'Help yourself to a honeycomb Yorkie for the glovebox.'
+        }
+
+
+        function apple(x){
+            return x*x>1000?"It's hotter than the sun!!":"Help yourself to a honeycomb Yorkie for the glovebox."
+          }
