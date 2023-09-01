@@ -14,3 +14,42 @@ function reverse(string){
   }
 
 
+  reverse = s => s.split(' ').reverse().join(' ')
+
+
+  function reverse(string){
+    // validate input
+    if (typeof(string) !== 'string') throw new Error('reverse: parameter is not a string!');
+    // just use the dumb way out since it's jabbascripps
+    return string.split(' ').reverse().join(' ');
+  }
+
+
+  const reverse = str => str.split(' ').reverse().join(' ');
+
+
+  const reverse = (string) =>
+  string.split(' ').reverse().join(' ');
+
+  const reverse = words => words.split(' ').reverse().join(' ')
+
+
+
+  reverse = string => string.split(' ').reverse().join(' ');
+
+
+
+  const reverse=s=>s.split(" ").reverse().join(" ");
+
+
+
+  function reverse(str){
+    return str.split(" ").reverse().join(" ");
+}
+
+
+function reverse(s){
+  return s.split(' ').reverse().join(' ');
+}
+
+
