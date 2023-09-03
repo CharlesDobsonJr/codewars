@@ -22,3 +22,33 @@ function toCsvText(array) {
  }
 
 
+ const toCsvText = array => array.join('\n');
+
+
+ const toCsvText = array => array.map(row => row.join(',')).join('\n');
+
+
+ function toCsvText(array) {
+    return array.map(list => list.join(',')).join('\n')
+ }
+
+
+ function toCsvText(arr) {
+   return arr.join("\n");
+}
+
+
+toCsvText=a=>a.join('\n')
+
+
+function toCsvText(array) {
+   return array.map(el => el.join(',')).join('\n');
+}
+
+
+function toCsvText(array) {
+   let result = array.join('\n')
+   return result
+}
+
+
