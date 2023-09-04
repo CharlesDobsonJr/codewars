@@ -20,3 +20,57 @@ function defineSuit(card) {
   }
 
 
+  function defineSuit(card) {
+    if(card.includes('♥')) return 'hearts'
+    if(card.includes('♦')) return 'diamonds'
+    if(card.includes('♣')) return 'clubs'
+    if(card.includes('♠')) return 'spades' 
+    }
+
+
+    function defineSuit(card) {
+        return {
+          '♣' : 'clubs',
+          '♦' : 'diamonds',
+          '♥' : 'hearts',
+          '♠' : 'spades'
+        }[card.substr(-1)]
+      }
+
+
+
+      function defineSuit(card) {
+        switch (card.slice(-1)){
+          case '♣': return 'clubs';
+          case '♦': return 'diamonds';
+          case '♥': return 'hearts';
+          case '♠': return 'spades';    
+        }
+          
+      }
+
+
+
+      function defineSuit(card) {
+        if (card.includes('♣')) {
+          return "clubs";
+        }
+        else if (card.includes('♦')) {
+          return "diamonds";
+        }
+        else if (card.includes('♥')) {
+          return "hearts";
+        }
+        else if (card.includes('♠')) {
+          return "spades";
+        }
+      };
+
+
+
+      function defineSuit(card) {
+        if (card.includes('♣')) return 'clubs';
+        if (card.includes('♦')) return 'diamonds';
+        if (card.includes('♥')) return 'hearts';
+        if (card.includes('♠')) return 'spades';
+      }
