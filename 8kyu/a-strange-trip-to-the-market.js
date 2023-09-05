@@ -18,3 +18,8 @@ function isLockNessMonster(s) {
 
 
 
+  function isLockNessMonster(s) {
+    return /3\.50|th?ree fi(?:ft|dd)y/g.test(s);
+  }
+
+
