@@ -23,3 +23,18 @@ function isLockNessMonster(s) {
   }
 
 
+  function isLockNessMonster(s) {
+    return (/tree fiddy|3.50/).test(s);
+  }
+
+
+  function isLockNessMonster(s) {
+    return /tree fiddy|3.50|three fifty/.test(s);
+  }
+
+
+  const isLockNessMonster = s =>
+  s.includes('tree fiddy') || s.includes('three fifty') || s.includes('3.50')
+
+
+  
