@@ -21,4 +21,44 @@ function whoIsPaying(name){
   }
 
 
-  
+  const whoIsPaying = name => name.length > 2 ? [name, name.slice(0, 2)] : [name]
+
+
+  const whoIsPaying = name =>
+      [...new Set([name, name.slice(0, 2)])]
+
+
+      function whoIsPaying(name){
+        if (name.length <= 2) {
+            return [name];
+        }else{
+            return [name,name [0] + name [1]]
+        }
+        
+        }
+
+
+        const whoIsPaying = name => 
+        name.length <= 2 ? [name] : [name, name.slice(0, 2)] 
+
+
+        function whoIsPaying (name)  {
+            if (name.length <= 2) {
+                return [name];
+            } else {
+                return [name, name.substring(0, 2)]
+            }
+        }
+
+
+        function whoIsPaying(name){
+            return name.length<=2?[name]:[name,name.substring(0,2)];
+           }
+
+
+
+           function whoIsPaying(name){
+            if (name.length > 2) {
+              return [name, name.slice(0, 2)]
+          } return [name];
+          }
