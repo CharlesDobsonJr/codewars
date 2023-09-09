@@ -17,3 +17,8 @@ var summation = function (num) {
   }
 
 
+  const summation = n => n * (n + 1) / 2;
+
+
+
+  
