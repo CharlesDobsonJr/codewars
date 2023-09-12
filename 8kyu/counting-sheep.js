@@ -31,3 +31,47 @@ function countSheeps(arrayOfSheeps) {
   }
 
 
+  function countSheeps(arr) {
+    return arr.filter(Boolean).length;
+  }
+
+
+  function countSheeps(arrayOfSheep) {
+    var count = 0;
+    
+    arrayOfSheep.forEach( function (sheep) {
+      if (sheep)
+        count++;
+    });
+    
+    return count;
+  }
+
+
+
+  let countSheeps = x => x.filter( s => s ).length;
+
+
+
+  function countSheeps(arrayOfSheep) {
+    var array = arrayOfSheep.reduce((a,b)=>a + (b===true?1:0),0)
+    return array;
+  }
+
+
+  function countSheeps(sheep) {
+    return sheep.filter(Boolean).length;
+  }
+
+
+  const countSheeps = (arrayOfSheep) => arrayOfSheep.filter(Boolean).length;
+
+
+  function countSheeps(arrayOfSheep) {
+    return arrayOfSheep.filter(Boolean).length;
+  }
+
+
+  function countSheeps(arrayOfSheep) {
+    return arrayOfSheep.filter(x => (x)).length;
+  }
