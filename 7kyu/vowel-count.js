@@ -31,4 +31,63 @@ function getCount(str) {
    }
 
 
-   
+   function getCount(str) {
+    return str.replace(/[^aeiou]/gi, '').length;
+  }
+
+
+  function getCount(str) {
+    var vowelsCount = 0;
+    str.split("").forEach(function(x){
+      if(x == "a" | x == "e" | x == "i" | x == "o" | x == "u"){
+        vowelsCount += 1;
+      }
+    });  
+    return vowelsCount;
+  }
+
+
+  function getCount(str) {
+    var vowelsCount = 0;
+    for (index in str){
+      switch (str[index]) {
+      case 'a':
+      case 'e':
+      case 'i':
+      case 'o':
+      case 'u':
+      vowelsCount++;
+      break;
+      }   
+    }
+    return vowelsCount;
+  }
+
+
+  function getCount(str) {
+    return (str.match(/[aeiou]/g) || []).length
+  }
+
+
+  function getCount(str) {
+    let vowels = ['a','e','i','o','u'];
+    return str.split('').filter(letter => {
+      return vowels.includes(letter)? true : false;
+    }).length;
+  }
+
+
+  function getCount(str) {
+    let vowelsCount = 0
+    const vowels = ["a", "e", "i", "o", "u"]
+    for(let char of str) {
+        if(vowels.includes(char)) {
+            vowelsCount++
+        }
+    }
+  
+    return vowelsCount;
+  }
+
+
+  const getCount = (str) => (str.match(/[aeiou]/g) || []).length;
