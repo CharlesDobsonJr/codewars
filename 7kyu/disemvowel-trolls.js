@@ -17,3 +17,8 @@ function disemvowel(str) {
   }
 
 
+  disemvowel = str => str.replace(/[aeiou]/gi,'');
+
+
+
+  
