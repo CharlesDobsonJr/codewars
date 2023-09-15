@@ -60,3 +60,25 @@ function disemvowel(str) {
   }
 
 
+  function disemvowel(str) {
+    return str.replace(/[aeiou]/ig,'');
+  }
+
+
+  const disemvowel = str => str.replace(/[aeiou]/gi, '');
+
+
+  const disemvowel = str => str.replace(/[aeiou]/ig, '');
+
+
+  function disemvowel(str) {
+    return str.replace(/[aeiou]+/gi, '');
+  }
+
+
+  function disemvowel(str) {
+    return str.replace(/[aeiouAEIOU]/g, '');
+  }
+
+
+  
