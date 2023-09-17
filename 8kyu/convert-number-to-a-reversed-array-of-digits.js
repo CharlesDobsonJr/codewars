@@ -20,3 +20,8 @@ function digitize(n) {
     return (n + '').split('').map(Number).reverse();
   }
 
+  function digitize(n) {
+    return String(n).split('').reverse().map(Number)
+  }
+
+
