@@ -31,3 +31,29 @@ function findMultiples(int,limit){
   }
 
 
+  function findMultiples(integer, limit) {
+    let arr = [];
+    for (let i=integer; i <=limit; i+=integer) arr.push(i)
+    return arr
+  }
+
+
+  function findMultiples(integer, limit){
+    let result = []
+    
+    for (let i = integer; i<=limit; i+=integer)
+      result.push(i)
+      
+    return result
+  }
+
+
+  function findMultiples(integer, limit) {
+    const a = [];
+    let increment = 1;
+    while (increment * integer <= limit) {
+      a.push(increment * integer);
+      increment++;
+    }
+    return a;
+  }
