@@ -29,4 +29,18 @@ function digitize(n) {
     return n.toString().split("").reverse().map(Number);
   }
 
-  
+  function digitize(n) {
+    //code here
+    let numArr = [];
+    
+    while(n > 0){
+      numArr.push(n % 10);
+      
+      n = Math.floor(n/10);
+    }
+    
+    return numArr;
+  }
+
+
+  const digitize = n => Array.from(String(n), Number).reverse();
