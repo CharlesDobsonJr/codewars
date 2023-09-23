@@ -25,3 +25,12 @@ function past(h, m, s){
   const past = (h,m,s) => 1000 * (3600 * h + 60 * m + s);
 
 
+  function past(h, m, s){
+    var hours = h * 60 * 60 * 1000;
+    var minutes = m * 60 * 1000;
+    var seconds = s * 1000;
+    
+    return hours + minutes + seconds;
+  }
+
+
