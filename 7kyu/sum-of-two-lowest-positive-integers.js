@@ -60,3 +60,21 @@ function sumTwoSmallestNumbers(numbers){
     var sorted = numbers.sort(function(a,b) { return a - b; });
     return sorted[0] + sorted[1];
   }; 
+
+
+  function sumTwoSmallestNumbers(numbers) {  
+    let arr = numbers.sort((a,b) => a - b);
+    return arr[0] + arr[1];
+  };
+
+
+  function sumTwoSmallestNumbers(numbers) {  
+    numbers = numbers.sort( (a,b) => a-b);
+    return numbers[0]+numbers[1];
+  };
+
+  
+  function sumTwoSmallestNumbers(numbers) {  
+    const sorted = numbers.sort((a,b) => a-b)
+    return sorted[0] + sorted[1];
+  };
