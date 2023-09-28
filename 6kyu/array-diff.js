@@ -25,3 +25,43 @@ function array_diff(a, b) {
   }
 
 
+  function array_diff(a, b) {
+    return a.filter(function (v) { return b.indexOf(v) === -1 });
+  }
+
+
+  function arrayDiff(a, b) {
+    return a.filter(x => !b.includes(x));
+  }
+
+
+  function array_diff(a, b) {
+    return a.filter(item => !b.includes(item));
+  }
+
+
+  function array_diff(a, b) {
+    return a.filter(x => b.indexOf(x) == -1);
+  }
+
+
+  const arrayDiff = (a, b) => a.filter(e => !b.includes(e))
+
+
+
+  function array_diff(a, b) {
+    return a.filter(value => !b.includes(value));
+  }
+
+
+  function arrayDiff(a, b) {
+    return a.filter(val => !b.includes(val));
+  }
+
+
+  function arrayDiff(a, b) {
+    return a.filter( ( el ) => !b.includes( el ) );
+  }
+
+
+  
