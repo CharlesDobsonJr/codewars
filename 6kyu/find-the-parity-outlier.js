@@ -69,4 +69,14 @@ function findOutlier(int){
     }
 
 
-    
+    function findOutlier(arr){
+        var even = arr.filter(function(num) {
+            return num % 2 === 0;
+        });
+        var odd = arr.filter(function(num) {
+            return num % 2 !== 0;
+        });
+        return even.length > odd.length ? odd[0] : even[0];
+      }
+
+
