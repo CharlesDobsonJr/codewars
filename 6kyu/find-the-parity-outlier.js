@@ -86,3 +86,13 @@ function findOutlier(int){
       }
 
 
+      function findOutlier(integers){
+        let test = Math.abs(integers[0])%2 + Math.abs(integers[1])%2 + Math.abs(integers[2])%2;
+        let outlierIsOdd = test >= 2 ? false : true;
+        return integers.filter(function(e){
+          return (Math.abs(e)%2 === +outlierIsOdd);
+        })[0];
+      }
+
+
+      
