@@ -38,3 +38,34 @@ function alphabetPosition(text) {
   }
 
 
+  function alphabetPosition(text) {
+    return text.toLowerCase().split('').map(a => a.charCodeAt(0) - 96).filter(a => a > 0 && a < 27).join(' ');
+  }
+
+
+
+  function alphabetPosition(text) {
+    const letters = 'abcdefghijklmnopqrstuvwxyz';
+    
+    return text.toLowerCase()
+               .split('')
+               .filter(t => letters.indexOf(t) > -1)
+               .map(t => letters.indexOf(t)+1 || '')
+               .join(' ');
+  }
+
+
+  function alphabetPosition(text) {
+	var alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+	return text.toLowerCase().split("").filter(function(x){
+		if (x.toLowerCase().match(/[a-z]/)) {
+			return x;
+		}
+	}).map(function(y){
+		if (alphabet.includes(y)) {
+			return (alphabet.indexOf(y)+1);
+		}
+	}).join(" ");
+}
+
+
