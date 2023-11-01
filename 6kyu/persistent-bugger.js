@@ -76,3 +76,12 @@ function persistence( num ) {
 
 
 
+function persistence(num, cnt=0) {
+    let arrayNum = num.toString().split('');
+    return arrayNum.length === 1 ?
+      cnt :
+      persistence(arrayNum.reduce((x,y) => x*y), ++cnt)
+  }
+
+
+
