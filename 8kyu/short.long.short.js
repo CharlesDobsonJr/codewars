@@ -45,3 +45,11 @@ var solution = (a, b) =>
     (a.length < b.length) ? (a + b + a) : (b + a + b);
 
 
+// ternar
+var solution = (a, b) => a.length > b.length ? b+a+b : a+b+a;
+
+
+const solution = (a, b) => {
+    return a.length > b.length ? `${b}${a}${b}` : `${a}${b}${a}`
+  }
+
