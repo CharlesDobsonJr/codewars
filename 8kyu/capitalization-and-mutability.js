@@ -40,3 +40,12 @@ function capitalizeWord(word) {
 
   const capitalizeWord = s => s[0].toUpperCase() + s.slice(1)
 
+  const capitalizeWord = word => word[0].toUpperCase() + word.substr(1);
+
+
+  function capitalizeWord(word) {
+    return word.charAt(0).toUpperCase() + word.slice(1);
+  }
+
+
+  
