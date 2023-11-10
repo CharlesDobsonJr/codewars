@@ -20,4 +20,6 @@ function capitalizeWord(word) {
   const capitalizeWord = (word) => word.replace(word.charAt(0), word.charAt(0).toUpperCase());
 
 
-  
+  const capitalizeWord = word => word[0].toUpperCase()+word.slice(1);
+
+
