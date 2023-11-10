@@ -23,3 +23,20 @@ function capitalizeWord(word) {
   const capitalizeWord = word => word[0].toUpperCase()+word.slice(1);
 
 
+  function capitalizeWord(word) {
+    return word[0].toUpperCase() + word.slice(1).toLowerCase();
+  }
+
+
+  function capitalizeWord(word) {
+    const first = word[0].toUpperCase()
+    return first + word.slice(1)
+    
+  }
+
+
+  const capitalizeWord = w => `${w[0].toUpperCase()}${w.slice(1)}`;
+
+
+  const capitalizeWord = s => s[0].toUpperCase() + s.slice(1)
+
