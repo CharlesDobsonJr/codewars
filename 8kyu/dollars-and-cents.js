@@ -45,3 +45,11 @@ function formatMoney(amount){
   const formatMoney = amount => '$' + amount.toFixed(2);
 
 
+  function formatMoney(a){
+    return '$' + a.toFixed(2);
+  }
+
+
+  let formatMoney=amount=>'$'+amount.toFixed(2);
+
+
