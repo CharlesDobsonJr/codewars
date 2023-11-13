@@ -18,3 +18,21 @@ function formatMoney(amount){
   }
 
 
+  let formatMoney = (amount) => `$${amount.toFixed(2)}`
+
+
+  function formatMoney(amount){
+    return `$${amount.toFixed(2)}`;
+  }
+
+
+  const formatMoney = amount => `$${amount.toFixed(2)}`;
+
+
+  function formatMoney(amount){
+    // your formatting code here
+    
+    return '$' + amount.toFixed(2);
+  }
+
+
