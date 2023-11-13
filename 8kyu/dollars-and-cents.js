@@ -36,3 +36,12 @@ function formatMoney(amount){
   }
 
 
+  function formatMoney(amount){
+    // your formatting code here
+    return '$'+String(amount.toFixed(2));
+  }
+
+
+  const formatMoney = amount => '$' + amount.toFixed(2);
+
+
