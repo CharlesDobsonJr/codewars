@@ -37,5 +37,9 @@ function fixTheMeerkat(arr) {
   var fixTheMeerkat=a=>a.reverse();
 
   
+  const fixTheMeerkat=arr=>arr.reverse();
+
+  const fixTheMeerkat = arr => arr.slice().reverse();
+
   
 
