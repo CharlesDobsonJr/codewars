@@ -27,3 +27,7 @@ function fixTheMeerkat(arr) {
 // function (arr) { return [arr[2], arr[1], arr[0]] } (compatible with legacy browsers/engines, pre-2015)
 // I would use example 1, because I don't have to support old JavaScript engines. It uses a new JavaScript feature (destructuring), but this function is so incredibly simple that it is nearly self-explanatory, making this a very good function for introducing destructuring to junior-level developers. Overall, it is readable and fast.
 
+const fixTheMeerkat = ([tail, body, head]) => [head, body, tail]
+
+
+
