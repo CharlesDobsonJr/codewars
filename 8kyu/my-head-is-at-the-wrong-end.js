@@ -41,5 +41,18 @@ function fixTheMeerkat(arr) {
 
   const fixTheMeerkat = arr => arr.slice().reverse();
 
-  
+  function fixTheMeerkat(arr) {
+    let nArr = [];
+    for(let i = arr.length-1; i >= 0; i--){
+     nArr.push(arr[i]) 
+    }
+   return nArr;
+  }
+
+
+ //Using es6 deconstructor, simply switch location
+const fixTheMeerkat = ([tail, body, head]) => [head, body, tail];
+
+fixTheMeerkat = a => a.reverse();
+
 
