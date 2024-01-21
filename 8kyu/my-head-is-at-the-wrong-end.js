@@ -56,3 +56,35 @@ const fixTheMeerkat = ([tail, body, head]) => [head, body, tail];
 fixTheMeerkat = a => a.reverse();
 
 
+function fixTheMeerkat(arr) {
+    var end = arr.shift();
+    var begin = arr.pop();
+    arr.push(end);
+    arr.unshift(begin);
+    return arr;
+  }
+
+
+  fixTheMeerkat = (arr) => arr.reverse()
+
+
+  const fixTheMeerkat = arr => {
+    return arr.reverse();
+  }
+
+
+  function fixTheMeerkat(arr) {
+    //your code here 
+    let newArr = []
+    for (let i = arr.length-1; i >= 0; i--) {
+      newArr.push(arr[i])
+    }
+    return newArr
+   }
+
+
+   function fixTheMeerkat(arr) {
+    [arr[0], arr[arr.length - 1]] = [arr[arr.length - 1], arr[0]];
+    return arr;
+  }
+
