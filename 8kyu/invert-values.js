@@ -49,4 +49,17 @@ function invert(array) {
 
  function invert(array) {
     return array.map(x => x * (-1));
- }
+ }function invert(array) {
+  return array.map(num => num * -1);
+}
+
+
+function invert(array) {
+    return array.map(num => num * -1);
+  }
+
+
+
+  function invert(array) {
+    return  array.map(item => item*(-1))
+   }
