@@ -24,4 +24,10 @@ function invert(array) {
      return newArr;
   }
 
-  
+  function invert(array) {
+    return array.map(i => 0 - i);
+ }
+
+ function invert(array) {
+    return array.map(e=> e*-1);
+ }
