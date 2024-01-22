@@ -43,4 +43,10 @@ function invert(array) {
      return array;
   }
 
-  
+  function invert(array) {
+    return array.map(x => -x);
+ }
+
+ function invert(array) {
+    return array.map(x => x * (-1));
+ }
