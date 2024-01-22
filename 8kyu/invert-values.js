@@ -31,3 +31,16 @@ function invert(array) {
  function invert(array) {
     return array.map(e=> e*-1);
  }
+
+ function invert(array) {
+    return array.map(el => -el);
+ }
+
+ function invert(array) {
+    for(let i=0; i<array.length; i++){
+      array[i] *= -1;
+    }
+     return array;
+  }
+
+  
