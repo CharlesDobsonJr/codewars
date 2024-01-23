@@ -72,4 +72,12 @@ function invert(array) {
     return array.map(i=>-i);
  }
 
+ function invert(array) {
+    return array.map(item => -item);
+ }
+
+ function invert(array) {
+    return array.map(n => -n) ;
+ }
+
  
