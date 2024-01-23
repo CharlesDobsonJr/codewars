@@ -63,3 +63,13 @@ function invert(array) {
   function invert(array) {
     return  array.map(item => item*(-1))
    }
+
+   function invert(array) {
+    return array.map(a=> a*-1);
+ }
+
+ function invert(array) {
+    return array.map(i=>-i);
+ }
+
+ 
